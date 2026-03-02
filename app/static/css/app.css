@@ -1,3 +1,66 @@
 body {
     padding-top: 5rem;
 }
+
+.instructions {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.form-section div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.required {
+    color: red;
+    font-size: 1.1rem;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #737373;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 320px;
+}
+
+form textarea {
+    padding: 10px;
+    border: 1px solid #737373;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: vertical;
+    width: 400px;
+    height: 150px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bffcf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0080ff;
+}
